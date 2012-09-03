@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="couchbase" fetch="git://github.com/couchbase/"
+          review="review.couchbase.org" />
+  <remote name="trondn" fetch="git://github.com/trondn/"
+          review="review.couchbase.org" />
+  <default remote="couchbase" revision="master"/>
+
+  <project name="couchnode" path="node" />
+  <project name="php-ext-couchbase" path="php" />
+  <project name="libcouchbase" path="lcb" />
+  <project name="sdktools" path="tools" remote="trondn">
+     <copyfile src='Makefile' dest='Makefile'/>
+  </project>
+</manifest>
