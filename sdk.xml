@@ -6,15 +6,22 @@
           review="review.couchbase.org" />
   <remote name="trondn" fetch="git://github.com/trondn/"
           review="review.couchbase.org" />
+  <remote name="avsej" fetch="git://github.com/avsej/"
+          review="review.couchbase.org" />
   <default remote="couchbase" revision="master"/>
 
-  <project name="couchnode" path="node" />
-  <project name="php-ext-couchbase" path="php" />
-  <project name="libcouchbase" path="lcb" />
-  <project name="couchbase-ruby-client" path="ruby/client" />
-  <project name="couchbase-ruby-client-em" path="ruby/em" remote="couchbaselabs" />
-  <project name="ruby-couchbase-model" path="ruby/model" remote="couchbaselabs" />
-  <project name="sdktools" path="tools" remote="trondn">
+  <project path="lcb" name="libcouchbase" />
+  <project path="node" name="couchnode" />
+  <project path="php" name="php-ext-couchbase" />
+  <project path="ruby/client" name="couchbase-ruby-client" />
+  <project path="ruby/em" name="couchbase-ruby-client-em" remote="couchbaselabs" />
+  <project path="ruby/model" name="ruby-couchbase-model" remote="couchbaselabs" />
+  <project path="demo/beer-sample" name="beer-sample"  remote="avsej"/>
+  <project path="demo/beer.rb" name="couchbase-beer.rb"  remote="avsej"/>
+  <project path="demo/squish" name="couchbase-squish"  remote="couchbaselabs"/>
+  <project path="demo/vacuum" name="vacuum"  remote="trondn"/>
+  <project path="demo/vacuum.rb" name="vacuum.rb"  remote="avsej"/>
+  <project path="tools" name="sdktools" remote="trondn">
      <copyfile src='Makefile' dest='Makefile'/>
   </project>
 </manifest>
