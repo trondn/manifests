@@ -2,6 +2,8 @@
 <manifest>
   <remote name="couchbase" fetch="git://github.com/couchbase/"
           review="review.couchbase.org" />
+  <remote name="couchbaselabs" fetch="git://github.com/couchbaselabs/"
+          review="review.couchbase.org" />
   <remote name="trondn" fetch="git://github.com/trondn/"
           review="review.couchbase.org" />
   <default remote="couchbase" revision="master"/>
@@ -9,6 +11,9 @@
   <project name="couchnode" path="node" />
   <project name="php-ext-couchbase" path="php" />
   <project name="libcouchbase" path="lcb" />
+  <project name="couchbase-ruby-client" path="ruby/client" />
+  <project name="couchbase-ruby-client-em" path="ruby/em" remote="couchbaselabs" />
+  <project name="ruby-couchbase-model" path="ruby/model" remote="couchbaselabs" />
   <project name="sdktools" path="tools" remote="trondn">
      <copyfile src='Makefile' dest='Makefile'/>
   </project>
