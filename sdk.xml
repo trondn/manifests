@@ -21,6 +21,7 @@
   <project path="demo/squish" name="couchbase-squish"  remote="couchbaselabs"/>
   <project path="demo/vacuum" name="vacuum"  remote="trondn"/>
   <project path="demo/vacuum.rb" name="vacuum.rb"  remote="avsej"/>
+  <project path="demo/pluginless" name="libev-couchbase-example"  remote="avsej"/>
   <project path="tools" name="sdktools" remote="trondn">
      <copyfile src='Makefile' dest='Makefile'/>
   </project>
