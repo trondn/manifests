@@ -12,6 +12,7 @@
   <default remote="couchbase" revision="master"/>
 
   <project path="lcb" name="libcouchbase" />
+  <project path="mock" name="CouchbaseMock" />
   <project path="node" name="couchnode" />
   <project path="php" name="php-ext-couchbase" />
   <project path="ruby/client" name="couchbase-ruby-client" />
