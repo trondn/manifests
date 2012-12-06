@@ -22,6 +22,7 @@
   <project path="demo/beer.rb" name="couchbase-beer.rb"  remote="avsej"/>
   <project path="demo/squish" name="couchbase-squish"  remote="couchbaselabs"/>
   <project path="demo/vacuum" name="vacuum"  remote="trondn"/>
+  <project path="demo/vacuum.js" name="vacuum.js"  remote="trondn"/>
   <project path="demo/vacuum.rb" name="vacuum.rb"  remote="avsej"/>
   <project path="demo/pluginless" name="libev-couchbase-example"  remote="avsej"/>
 <!--  <project path="nginx" name="nginx"  remote="git-mirror" revision="02e371090b5f8f3c57d83b4497f7b28413d00f0f"/> |+ release-1.3.7 +|-->
