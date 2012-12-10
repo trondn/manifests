@@ -21,6 +21,7 @@
   <project path="demo/beer-sample" name="beer-sample"  remote="avsej"/>
   <project path="demo/beer.rb" name="couchbase-beer.rb"  remote="couchbaselabs"/>
   <project path="demo/beersample-java" name="beersample-java" remote="couchbaselabs"/>
+  <project path="demo/beersample-php" name="beersample-php" remote="trondn"/>
   <project path="demo/squish" name="couchbase-squish"  remote="couchbaselabs"/>
   <project path="demo/vacuum" name="vacuum"  remote="trondn"/>
   <project path="demo/vacuum.js" name="vacuum.js"  remote="trondn"/>
