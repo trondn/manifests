@@ -8,6 +8,7 @@
 
   <project name="libcouchbase" path="libcouchbase" />
   <project name="couchbase-ruby-client" path="client" />
+  <project name="couchbase-ruby-model" path="model" />
   <project path="tools" name="sdktools" remote="trondn">
      <copyfile src='Makefile.ruby' dest='Makefile'/>
   </project>
