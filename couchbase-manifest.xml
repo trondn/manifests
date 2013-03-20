@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="membase" fetch="git://github.com/membase/"
+	  review="review.couchbase.org" />
+  <default remote="membase" revision="master"/>
+
+  <project path="manifest" name="manifest" />
+</manifest>
