@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <default remote="avsej" revision="nginx"/>
+
+  <remote name="couchbaselabs" fetch="git://github.com/couchbaselabs/"/>
+  <remote name="avsej" fetch="git://github.com/avsej/"/>
+  <remote name="nginx" fetch="git://github.com/nginx/"/>
+  <remote name="agentzh" fetch="git://github.com/agentzh/"/>
+
+  <project path="nginx" name="nginx"  remote="nginx" revision="740eba7e73bf85fd7e93e2d908f64f649d1819ab"/> <!-- v1.4.0 -->
+  <project path="module" name="couchbase-nginx-module" remote="couchbaselabs" revision="master"/>
+  <project path="srcache" name="srcache-nginx-module" remote="agentzh" revision="fb4b659e850824cd32df19c76df4792501b0e360"/> <!-- v0.20 -->
+  <project path="echo" name="echo-nginx-module" remote="agentzh" revision="6ce0801276ba06203e6be8f12cd6637ab1e86657"/> <!-- v0.45 -->
+  <project name="libcouchbase" path="libcouchbase"/>
+  <project path="tools" name="sdktools">
+     <copyfile src="Makefile.nginx" dest="Makefile"/>
+  </project>
+</manifest>
