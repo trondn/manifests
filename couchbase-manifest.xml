@@ -5,4 +5,5 @@
   <default remote="couchbase" revision="master"/>
 
   <project path="manifest" name="manifest" />
+  <project path="server-cv" name="server-cv" />
 </manifest>
